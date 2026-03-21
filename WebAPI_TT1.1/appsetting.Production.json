@@ -1,0 +1,9 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=.;Database=TaskDB_Prod;Trusted_Connection=True;TrustServerCertificate=True"
+  },
+
+  "Jwt": {
+    "Key": "THIS_IS_SUPER_SECRET_KEY_FOR_MY_ASSIGNMENT_PROJECT_2026_ABCXYZ_123456789"
+  }
+}

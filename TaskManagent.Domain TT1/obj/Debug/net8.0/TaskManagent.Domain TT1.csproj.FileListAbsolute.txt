@@ -1,0 +1,14 @@
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\bin\Debug\net8.0\TaskManagent.Domain TT1.exe
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\bin\Debug\net8.0\TaskManagent.Domain TT1.deps.json
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\bin\Debug\net8.0\TaskManagent.Domain TT1.runtimeconfig.json
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\bin\Debug\net8.0\TaskManagent.Domain TT1.dll
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\bin\Debug\net8.0\TaskManagent.Domain TT1.pdb
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\obj\Debug\net8.0\TaskManagent.Domain TT1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\obj\Debug\net8.0\TaskManagent.Domain TT1.AssemblyInfoInputs.cache
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\obj\Debug\net8.0\TaskManagent.Domain TT1.AssemblyInfo.cs
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\obj\Debug\net8.0\TaskManagent.Domain TT1.csproj.CoreCompileInputs.cache
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\obj\Debug\net8.0\TaskManagent.Domain TT1.dll
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\obj\Debug\net8.0\refint\TaskManagent.Domain TT1.dll
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\obj\Debug\net8.0\TaskManagent.Domain TT1.pdb
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\obj\Debug\net8.0\TaskManagent.Domain TT1.genruntimeconfig.cache
+D:\Thực tập SPRING 2026\TaskManager\TaskManagent.Domain TT1\TaskManagent.Domain TT1\obj\Debug\net8.0\ref\TaskManagent.Domain TT1.dll

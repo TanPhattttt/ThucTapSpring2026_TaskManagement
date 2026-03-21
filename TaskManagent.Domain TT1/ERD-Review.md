@@ -1,0 +1,4 @@
+﻿- Một User có thể được gán nhiều Task
+- Một Task chỉ gán cho một User tại một thời điểm
+- Một Project chứa nhiều Task
+- Task bắt buộc thuộc về một Project
