@@ -147,6 +147,7 @@ Thực hiện theo các bước sau để test API:
 
 Email: [admin@gmail.com]
 Password: admin
+(Create Admin user bằng cách vào AuthController, đổi mã RoleId 11111111-1111-1111-1111-111111111111 thành 22222222-2222-2222-2222-222222222222)
 
 ---
 
