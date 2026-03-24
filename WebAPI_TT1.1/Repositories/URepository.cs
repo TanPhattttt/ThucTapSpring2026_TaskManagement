@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TaskManagent.Domain_TT1.Entities;
 using WebAPI_TT1._1.Data;
 using WebAPI_TT1._1.Models;
 

@@ -85,7 +85,7 @@
   },
   {
     "ContainingType": "WebAPI_TT1._1.Controllers.TaskController",
-    "Method": "GetAll",
+    "Method": "GetAllTask",
     "RelativePath": "api/Task",
     "HttpMethod": "GET",
     "IsController": true,
@@ -95,7 +95,7 @@
   },
   {
     "ContainingType": "WebAPI_TT1._1.Controllers.TaskController",
-    "Method": "Create",
+    "Method": "CreateNewTask",
     "RelativePath": "api/Task",
     "HttpMethod": "POST",
     "IsController": true,
@@ -111,7 +111,7 @@
   },
   {
     "ContainingType": "WebAPI_TT1._1.Controllers.TaskController",
-    "Method": "GetById",
+    "Method": "GetTaskById",
     "RelativePath": "api/Task/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -127,7 +127,7 @@
   },
   {
     "ContainingType": "WebAPI_TT1._1.Controllers.TaskController",
-    "Method": "Delete",
+    "Method": "DeleteTask",
     "RelativePath": "api/Task/{taskId}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -143,7 +143,7 @@
   },
   {
     "ContainingType": "WebAPI_TT1._1.Controllers.TaskController",
-    "Method": "Assign",
+    "Method": "AssignUser",
     "RelativePath": "api/Task/assign",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -175,7 +175,7 @@
   },
   {
     "ContainingType": "WebAPI_TT1._1.Controllers.TaskController",
-    "Method": "UpdateStatus",
+    "Method": "UpdateStatusTask",
     "RelativePath": "api/Task/update-status",
     "HttpMethod": "PUT",
     "IsController": true,

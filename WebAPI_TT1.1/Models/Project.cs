@@ -1,6 +1,4 @@
-﻿using TaskManagent.Domain_TT1.Entities;
-
-namespace WebAPI_TT1._1.Models
+﻿namespace WebAPI_TT1._1.Models
 {
     public class Project
     {

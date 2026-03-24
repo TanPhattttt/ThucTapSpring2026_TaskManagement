@@ -10,7 +10,15 @@
 
 API hỗ trợ phân công task (assign), cập nhật trạng thái và xác thực bằng JWT.
 
+## 1.1 Slide cấu trúc
+
+Slide PDF: WebAPI_TT1.1.Bản thuyết trình Thực tập kỳ spring 2026.pdf
+Link slide cấu trúc: [https://www.canva.com/design/DAHEu9wgjE0/Yipd8YrWKCqIcL9LyKVp2g/edit?utm_content=DAHEu9wgjE0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAHEu9wgjE0/Yipd8YrWKCqIcL9LyKVp2g/edit?utm_content=DAHEu9wgjE0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+EF Core là ORM giúp tương tác database bằng LINQ thay vì SQL,
+giúp code dễ đọc và bảo trì.
 ---
+
 
 ## 2. Công nghệ sử dụng
 
@@ -27,7 +35,7 @@ API hỗ trợ phân công task (assign), cập nhật trạng thái và xác th
 
 ### Clone project
 
-git clone <link-repo-của-bạn>
+git clone <https://github.com/TanPhattttt/ThucTapSpring2026_TaskManagement>
 
 ---
 
@@ -48,8 +56,6 @@ update-database
 ---
 
 ### Run project
-
-dotnet run
 
 Hoặc chạy bằng Visual Studio (F5)
 
@@ -81,7 +87,7 @@ POST /api/auth/login
 
 Nhấn nút **Authorize** trên Swagger và nhập:
 
-Bearer {your_token}
+{your_token}
 
 ---
 
@@ -107,23 +113,40 @@ Bearer {your_token}
 
 ## 7. Test API
 
-Sử dụng Swagger để test theo flow:
+Thực hiện theo các bước sau để test API:
 
-1. Register
-2. Login
+1. Đăng ký user
+   POST /api/auth/register
+
+2. Đăng nhập
+   POST /api/auth/login
+   → Copy token trả về
+
 3. Authorize
-4. Create Project
-5. Create Task
-6. Assign Task
-7. Update Status
-8. Get Tasks
+   → Nhấn "Authorize" trong Swagger
+   → Nhập: Bearer {your_token}
+
+4. Tạo Project
+   POST /api/project
+
+5. Tạo Task
+   POST /api/task
+
+6. Assign Task cho user
+   PUT /api/task/assign
+
+7. Update trạng thái Task
+   PUT /api/task/update-status
+
+8. Lấy danh sách Task
+   GET /api/task
 
 ---
 
 ## 8. Tài khoản test
 
-Email: [test@gmail.com](mailto:test@gmail.com)
-Password: 123456
+Email: [admin@gmail.com]
+Password: admin
 
 ---
 
@@ -132,3 +155,24 @@ Password: 123456
 * Sử dụng SQL Server local
 * Cần chạy migration trước khi run
 * Đảm bảo SQL Server đang hoạt động
+
+---
+
+## 10. Task Assign
+Chức năng Assign dùng để:
+
+- Phân công task cho user
+- Xác định người chịu trách nhiệm
+- Hỗ trợ quản lý công việc theo từng cá nhân
+
+---
+
+## 11. What I Learned
+
+* Xây dựng RESTful API với ASP.NET Core
+* Sử dụng JWT Authentication
+* Làm việc với Entity Framework Core
+* Tổ chức code theo mô hình 3-layer
+* Viết unit test với xUnit + Moq
+
+
